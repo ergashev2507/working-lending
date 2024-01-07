@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+/* HEADER */
+
+.header {
+    margin: auto;
+    max-width: 1400px;
+    width: 100%;
+    height: 750px;
+    background-color: #24053E;
+    
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.header-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.title {
+    margin: auto;
+    max-width: 635px;
+    width: 100%;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+.header-button {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 66px;
+}
+.all-btn {
+    width: 161px;
+    height: 61px;
+    flex-shrink: 0;
+    background: #44FFA1;
+    color:  #24053E;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 177.778% */
+    letter-spacing: -0.18px;
+    padding-top: 15px;
+    transition: .5s;
+}
+.all-btn:hover {
+    border: 2px solid  #44FFA1;
+    background-color: #24053E;
+    color: #44FFA1;
+    opacity: .5s;
+}
+.header-text {
+    color: white;
+    font-size: 18px;
+    transition: .6s;
+}
+.header-text::after{
+    content: "";
+    display: block;
+    width: 122px;
+    height: 3px;
+    background-color: #44FFA1;
+}
+.header-text:hover {
+    color: #44FFA1;
+}
+.image-workit {
+    width: 95.762px;
+    height: 24.608px;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-in_phone{ 
+    margin-top: -423.5px;
+
+}
+.phone_in-oval {
+    margin-top: -17.7%;
+    margin-left: 200px;
+}
+.phone-white_1{
+    margin-top: -280px;
+    margin-right: 140px;
+}
+.phone-white_2 {
+    margin-top: -330px;
+    margin-left: 300px;
+}
+
+/* HEADER */
+
+.main {
+    margin-top: 400px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 26px;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    align-items: center;
+
+}
+.about-number {
+    width: 56px;
+    height: 56px;
+    color:  #24053E;
+    text-align: center;
+    font-family: Fraunces 144pt;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40px;
+    border-radius: 50%;
+    border: 1px solid  #584D62;
+    margin-bottom: 56px;
+
+}
+.about-title {
+    width: 354px;
+    color:  #24053E;
+    text-align: center;
+    font-family: Fraunces 144pt;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    margin-bottom: 28px;
+}
+.about-text {
+    width: 300px;
+    color: var(--Davys-Grey, #584D62);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.person-a {
+    display: flex;
+}
+
+.person-photo {
+    margin-top: 250px;
+    max-width: 450.287px;
+    width: 100%;
+    height: 453px;
+    background-color: #44FFA1;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.person-foto {
+    margin-top: 20px;
+    margin-left: -10px;
+}
+.person-card {
+    width: 730px;
+    height: 360px;
+    background: #24053E;
+    margin-top: 400px;
+    margin-left: -80px;
+}
+.person-card__title {
+    color: var(--White, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Fraunces 144pt;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 64px;
+    padding-top: 64px;
+    padding-left: 65px;
+}
+.person-card__text {
+    width: 602px;
+    color:  #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 10px 0 32px 64px;
+}
+.card {
+    width: 190px;
+    height: 61px;
+    margin-left: 64px;
+    text-align: center;
+    color:  #24053E;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    padding: 13px 24px ;
+}
+
+.footer {
+    margin: 100px 0 100px 47%;
+
+}
+/* .footer-workit:active {
+    opacity: 0.6s;
+} */
+
